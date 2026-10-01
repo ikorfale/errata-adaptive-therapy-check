@@ -52,7 +52,7 @@ def one(pid, rows, starts=4):
         mc = simulate(p, Dc, s2 + H)[s2:]
         run = np.minimum.accumulate(mc)  # PCWG-like progression: 25% and >=2 ng/ml above the running nadir
         over = np.nonzero((mc >= 1.25 * run) & (mc - run >= 2))[0]
-        pts.append(dict(f=float(f), cost=float(c), fc=fc, psa2y=float(mc[730]), ttp=int(over[0]) if len(over) else H))
+        pts.append(dict(f=float(f), p=[float(v) for v in p], cost=float(c), fc=fc, psa2y=float(mc[730]), ttp=int(over[0]) if len(over) else H))
     cb = min(q['cost'] for q in pts); s2v = 2 * cb / tr.sum()
     for q in pts: q['ok'] = bool((q['cost'] - cb) / max(s2v, 1e-9) <= 1.92); q['ok20'] = bool(q['cost'] <= 1.2 * cb)
     ok = [q for q in pts if q['ok']]
