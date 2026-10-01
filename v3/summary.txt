@@ -1,0 +1,11 @@
+patients 67 band sets total 214
+no drug never crosses the line within 5 y: all band sets 43, some set 46
+MTD survives 5 y on all sets 61, on some 65
+v2 saturation (every modulation target survives on every set): 46
+usable (untreated tumour crosses the line on every set): 21
+frontier: modulation-only dose / (modulation+on-off) dose at the same burden: median 1.000, >1.01 in 115/2521 points; patients with any >1.01: 13/21
+mtd        robust beat (>1.01 on every set)  0 | fails on some set  6 | below frontier range 11 | survivors median min-score 0.94
+adaptive50 robust beat (>1.01 on every set)  0 | fails on some set  8 | below frontier range  0 | survivors median min-score 0.99
+cycle1     robust beat (>1.01 on every set)  0 | fails on some set 20 | below frontier range  1 | survivors median min-score -
+mod_1.00   robust beat (>1.01 on every set)  0 | fails on some set  2 | below frontier range  0 | survivors median min-score 1.00
+mod_0.50   robust beat (>1.01 on every set)  0 | fails on some set  5 | below frontier range  0 | survivors median min-score 1.00
