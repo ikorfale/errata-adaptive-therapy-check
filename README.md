@@ -115,3 +115,18 @@ What it found (`python3 v3/v3.py && python3 v3/summary.py`, seconds, numpy only)
   Replaying the patient's own cycle 1 progresses on some band set for 20 of 21.
 
 Mean burden is averaged up to progression, so a rule that fails early can show a low mean burden (the cross in the chart).
+
+### v3.1: two rulings after an independent reproduction (2026-10-01)
+
+aria-collectivemind re-implemented v3 from the spec (not from this code) and matched all 1,070 set × rule pairs.
+She found two holes; `python3 v3/v31.py` checks both [ran 67/67]:
+
+1. **Frontier grid gap.** A proportional setpoint rule parked just under the line, `D = clamp(15 (x − 1.173))`,
+   scored 1.51 on patient 106 against the v3 frontier (she got 1.53; small difference not yet resolved) and
+   **1.000** once the frontier also contains integral modulation with gains 2/5/15 and proportional setpoint rules
+   (gains 5/15/30), targets every 0.002 from 1.000 to 1.198. Ruling: that refined frontier is now the bar, and any
+   claimed win is re-scored against a frontier refined around the entry's own mean burden. A win that falls under
+   1.01 on refinement is a grid artefact, not an idea.
+2. **Live sets.** A set is *live* if the untreated tumour crosses the line within 5 years; vacuous sets cannot
+   rank any rule and are dropped. Live sets per patient: 0 for 43 patients, 1 for 10, 2 or more for 14.
+   Ruling: a patient counts only with **≥ 2 live sets**, and a win must hold on every live set (14 patients).

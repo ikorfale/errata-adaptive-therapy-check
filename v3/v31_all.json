@@ -1,0 +1,2009 @@
+[
+{
+"pid": "001",
+"n": 1,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.6682,
+"dose": 0.0,
+"v3": 11444818242.162,
+"refined": null
+}
+]
+},
+{
+"pid": "002",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 21
+}
+]
+},
+{
+"pid": "003",
+"n": 3,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 1.0809,
+"dose": 0.0,
+"v3": 4985937889.959,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9929,
+"dose": 0.0,
+"v3": 4871245102.425,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.077,
+"dose": 0.0,
+"v3": 5512448901.282,
+"refined": null
+}
+]
+},
+{
+"pid": "004",
+"n": 5,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.5698,
+"dose": 0.0,
+"v3": 47378636882.775,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5577,
+"dose": 0.0,
+"v3": 48241120448.277,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5308,
+"dose": 0.0,
+"v3": 48459775285.984,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.4956,
+"dose": 0.0,
+"v3": 47206723018.152,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.3793,
+"dose": 0.0,
+"v3": 275841637441.825,
+"refined": null
+}
+]
+},
+{
+"pid": "006",
+"n": 1,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.4068,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "011",
+"n": 3,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.7711,
+"dose": 0.0,
+"v3": 4958209970.98,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5566,
+"dose": 0.0,
+"v3": 32551123144.892,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.3747,
+"dose": 0.0,
+"v3": 313397905022.205,
+"refined": null
+}
+]
+},
+{
+"pid": "012",
+"n": 6,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9815,
+"dose": 0.0,
+"v3": 6007302567.458,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9729,
+"dose": 0.0,
+"v3": 5991080444.965,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9674,
+"dose": 0.0,
+"v3": 5976593096.508,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9674,
+"dose": 0.0,
+"v3": 5965871214.646,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.978,
+"dose": 0.0,
+"v3": 5961931558.621,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.0088,
+"dose": 0.0,
+"v3": 5969170738.798,
+"refined": null
+}
+]
+},
+{
+"pid": "013",
+"n": 4,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.4608,
+"dose": 0.0,
+"v3": 18574909143.35,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.3536,
+"dose": 0.0,
+"v3": 32594467939.543,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2597,
+"dose": 0.0,
+"v3": 254023284624.218,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.1948,
+"dose": 0.0,
+"v3": 254822411359.349,
+"refined": null
+}
+]
+},
+{
+"pid": "014",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 1.152,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.1264,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "015",
+"n": 1,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.5618,
+"dose": 0.0,
+"v3": 15375826025.345,
+"refined": null
+}
+]
+},
+{
+"pid": "016",
+"n": 1,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.8114,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "017",
+"n": 3,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.8417,
+"dose": 0.0,
+"v3": 69291678101.471,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.724,
+"dose": 0.0,
+"v3": 73749625707.611,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5492,
+"dose": 0.0,
+"v3": 90529184452.282,
+"refined": null
+}
+]
+},
+{
+"pid": "019",
+"n": 3,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.6093,
+"dose": 0.0,
+"v3": 8915893718.83,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5167,
+"dose": 0.0,
+"v3": 19308880157.649,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.3714,
+"dose": 0.0,
+"v3": 39998385413.26,
+"refined": null
+}
+]
+},
+{
+"pid": "020",
+"n": 7,
+"n_live": 7,
+"sets": [
+{
+"live": true,
+"status": "OK",
+"mb": 1.185,
+"dose": 386.5,
+"v3": 1.127,
+"refined": 1.0
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1842,
+"dose": 366.1,
+"v3": 1.129,
+"refined": 1.003
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1835,
+"dose": 349.6,
+"v3": 1.132,
+"refined": 1.002
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1831,
+"dose": 338.3,
+"v3": 1.134,
+"refined": 1.003
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1831,
+"dose": 335.5,
+"v3": 1.129,
+"refined": 1.003
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 385
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 61
+}
+]
+},
+{
+"pid": "024",
+"n": 3,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9619,
+"dose": 0.0,
+"v3": 4919093502.364,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9175,
+"dose": 0.0,
+"v3": 6899178328.828,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8649,
+"dose": 0.0,
+"v3": 213997992586.229,
+"refined": null
+}
+]
+},
+{
+"pid": "025",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 1.0969,
+"dose": 0.0,
+"v3": 7413537850.906,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.001,
+"dose": 0.0,
+"v3": 6445392023.135,
+"refined": null
+}
+]
+},
+{
+"pid": "026",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.5225,
+"dose": 0.0,
+"v3": 85333190159.756,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.4525,
+"dose": 0.0,
+"v3": 272828160468.197,
+"refined": null
+}
+]
+},
+{
+"pid": "028",
+"n": 9,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.2616,
+"dose": 0.0,
+"v3": 268260426409.109,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2608,
+"dose": 0.0,
+"v3": 261202578407.35,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2604,
+"dose": 0.0,
+"v3": 257481571646.843,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2608,
+"dose": 0.0,
+"v3": 260707909500.427,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2626,
+"dose": 0.0,
+"v3": 275016386902.283,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2647,
+"dose": 0.0,
+"v3": 290367771480.234,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2541,
+"dose": 0.0,
+"v3": 194354731422.458,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2081,
+"dose": 0.0,
+"v3": 383878709082.213,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2854,
+"dose": 0.0,
+"v3": 377932719229.187,
+"refined": null
+}
+]
+},
+{
+"pid": "029",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 55
+}
+]
+},
+{
+"pid": "030",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9614,
+"dose": 0.0,
+"v3": 4995642415.426,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.845,
+"dose": 0.0,
+"v3": 4772915752.945,
+"refined": null
+}
+]
+},
+{
+"pid": "031",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 56
+}
+]
+},
+{
+"pid": "032",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.5525,
+"dose": 0.0,
+"v3": 15920533195.167,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.434,
+"dose": 0.0,
+"v3": 38008398011.099,
+"refined": null
+}
+]
+},
+{
+"pid": "036",
+"n": 5,
+"n_live": 5,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 14
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 13
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 13
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 13
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 12
+}
+]
+},
+{
+"pid": "037",
+"n": 8,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.6082,
+"dose": 0.0,
+"v3": 27633463217.232,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6157,
+"dose": 0.0,
+"v3": 25708566066.656,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6332,
+"dose": 0.0,
+"v3": 22367673172.838,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6437,
+"dose": 0.0,
+"v3": 18350041649.586,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6162,
+"dose": 0.0,
+"v3": 20921436656.021,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5788,
+"dose": 0.0,
+"v3": 26035666383.514,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6921,
+"dose": 0.0,
+"v3": 11115486052.3,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6818,
+"dose": 0.0,
+"v3": 14460696507.429,
+"refined": null
+}
+]
+},
+{
+"pid": "039",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 1.0061,
+"dose": 0.0,
+"v3": 5343499350.967,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8377,
+"dose": 0.0,
+"v3": 4762325019.708,
+"refined": null
+}
+]
+},
+{
+"pid": "040",
+"n": 6,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9535,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9503,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.944,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9589,
+"dose": 0.0,
+"v3": 4764495367.014,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9894,
+"dose": 0.0,
+"v3": 5659551881.408,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8147,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "042",
+"n": 3,
+"n_live": 3,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 17
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 19
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 40
+}
+]
+},
+{
+"pid": "044",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.8929,
+"dose": 0.0,
+"v3": 5005762944.367,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8912,
+"dose": 0.0,
+"v3": 4935825598.9,
+"refined": null
+}
+]
+},
+{
+"pid": "046",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 62
+}
+]
+},
+{
+"pid": "050",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.5989,
+"dose": 0.0,
+"v3": 5068701768.991,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.3095,
+"dose": 0.0,
+"v3": 32987631929.787,
+"refined": null
+}
+]
+},
+{
+"pid": "051",
+"n": 5,
+"n_live": 5,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 1
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 1
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 2
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 1
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 1
+}
+]
+},
+{
+"pid": "052",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9843,
+"dose": 0.0,
+"v3": 5284604716.865,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.0584,
+"dose": 0.0,
+"v3": 6978398328.955,
+"refined": null
+}
+]
+},
+{
+"pid": "054",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 14
+}
+]
+},
+{
+"pid": "055",
+"n": 3,
+"n_live": 3,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 7
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 9
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 4
+}
+]
+},
+{
+"pid": "056",
+"n": 4,
+"n_live": 3,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 26
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 49
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 26
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8696,
+"dose": 0.0,
+"v3": 66805288626.33,
+"refined": null
+}
+]
+},
+{
+"pid": "058",
+"n": 7,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9159,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9313,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9324,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9183,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.871,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7969,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6032,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "060",
+"n": 1,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 1.0881,
+"dose": 0.0,
+"v3": 4660425570.544,
+"refined": null
+}
+]
+},
+{
+"pid": "061",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 17
+}
+]
+},
+{
+"pid": "062",
+"n": 4,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.3935,
+"dose": 0.0,
+"v3": 22332529522.449,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.3009,
+"dose": 0.0,
+"v3": 35274743380.511,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2175,
+"dose": 0.0,
+"v3": 231847968407.834,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2026,
+"dose": 0.0,
+"v3": 326736370789.415,
+"refined": null
+}
+]
+},
+{
+"pid": "063",
+"n": 8,
+"n_live": 8,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 9
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 9
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 8
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 8
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 7
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 6
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 8
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 13
+}
+]
+},
+{
+"pid": "064",
+"n": 6,
+"n_live": 3,
+"sets": [
+{
+"live": true,
+"status": "OK",
+"mb": 1.1752,
+"dose": 140.3,
+"v3": 1.008,
+"refined": 1.003
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1742,
+"dose": 116.1,
+"v3": 1.0,
+"refined": 1.0
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1723,
+"dose": 76.0,
+"v3": 1.368,
+"refined": 1.004
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.1693,
+"dose": 20.2,
+"v3": 2.279,
+"refined": 0.941
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.145,
+"dose": 0.0,
+"v3": 5282367581.287,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9999,
+"dose": 0.0,
+"v3": 6436577637.359,
+"refined": null
+}
+]
+},
+{
+"pid": "066",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9894,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.9699,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "075",
+"n": 6,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9686,
+"dose": 0.0,
+"v3": 5479723617.342,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8635,
+"dose": 0.0,
+"v3": 13316809555.606,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7165,
+"dose": 0.0,
+"v3": 60861136403.798,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6535,
+"dose": 0.0,
+"v3": 35086207728.016,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5588,
+"dose": 0.0,
+"v3": 35534168694.653,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7081,
+"dose": 0.0,
+"v3": 258762004304.248,
+"refined": null
+}
+]
+},
+{
+"pid": "077",
+"n": 6,
+"n_live": 6,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 5
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 5
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 5
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 4
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 4
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 4
+}
+]
+},
+{
+"pid": "078",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "OK",
+"mb": 1.1754,
+"dose": 154.5,
+"v3": 0.998,
+"refined": 0.998
+}
+]
+},
+{
+"pid": "079",
+"n": 1,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.8266,
+"dose": 0.0,
+"v3": 5217164701.526,
+"refined": null
+}
+]
+},
+{
+"pid": "081",
+"n": 3,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.6895,
+"dose": 0.0,
+"v3": 30796738265.007,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6176,
+"dose": 0.0,
+"v3": 401069318281.724,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5732,
+"dose": 0.0,
+"v3": 334374722450.574,
+"refined": null
+}
+]
+},
+{
+"pid": "083",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.8067,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7131,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "084",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9546,
+"dose": 0.0,
+"v3": 5038138796.809,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8598,
+"dose": 0.0,
+"v3": 4502719257.905,
+"refined": null
+}
+]
+},
+{
+"pid": "086",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.5281,
+"dose": 0.0,
+"v3": 69084309677.511,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.4697,
+"dose": 0.0,
+"v3": 82134168056.161,
+"refined": null
+}
+]
+},
+{
+"pid": "087",
+"n": 5,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.3844,
+"dose": 0.0,
+"v3": 175603570068.195,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.298,
+"dose": 0.0,
+"v3": 592827264954.796,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.2342,
+"dose": 0.0,
+"v3": 598070456048.161,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.184,
+"dose": 0.0,
+"v3": 310872324155.927,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.1377,
+"dose": 0.0,
+"v3": 926091679578.784,
+"refined": null
+}
+]
+},
+{
+"pid": "088",
+"n": 2,
+"n_live": 2,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 55
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 350
+}
+]
+},
+{
+"pid": "091",
+"n": 4,
+"n_live": 4,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 10
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 10
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 10
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 10
+}
+]
+},
+{
+"pid": "093",
+"n": 3,
+"n_live": 3,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 20
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 91
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1744,
+"dose": 143.0,
+"v3": 1.429,
+"refined": 1.007
+}
+]
+},
+{
+"pid": "094",
+"n": 5,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.723,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7291,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7357,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7362,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7099,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "095",
+"n": 6,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.0914,
+"dose": 0.0,
+"v3": null,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.0841,
+"dose": 0.0,
+"v3": null,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.0785,
+"dose": 0.0,
+"v3": null,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.0732,
+"dose": 0.0,
+"v3": null,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.0683,
+"dose": 0.0,
+"v3": null,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.0638,
+"dose": 0.0,
+"v3": null,
+"refined": null
+}
+]
+},
+{
+"pid": "096",
+"n": 5,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.8366,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8236,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.8221,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7872,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.7206,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "097",
+"n": 1,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.9405,
+"dose": 0.0,
+"v3": 5394664372.437,
+"refined": null
+}
+]
+},
+{
+"pid": "099",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 9
+}
+]
+},
+{
+"pid": "100",
+"n": 4,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.6842,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5238,
+"dose": 0.0,
+"v3": 13826697307.047,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.4453,
+"dose": 0.0,
+"v3": 93655973888.581,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.492,
+"dose": 0.0,
+"v3": 203642077986.776,
+"refined": null
+}
+]
+},
+{
+"pid": "101",
+"n": 1,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 12
+}
+]
+},
+{
+"pid": "102",
+"n": 3,
+"n_live": 3,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 5
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 6
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 5
+}
+]
+},
+{
+"pid": "104",
+"n": 2,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.8026,
+"dose": 0.0,
+"v3": 5064729335.729,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6498,
+"dose": 0.0,
+"v3": 4703214724.548,
+"refined": null
+}
+]
+},
+{
+"pid": "105",
+"n": 4,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.6855,
+"dose": 0.0,
+"v3": 12849283988.937,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6681,
+"dose": 0.0,
+"v3": 12502730752.766,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.6441,
+"dose": 0.0,
+"v3": 12178447268.049,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.5811,
+"dose": 0.0,
+"v3": 16664501662.669,
+"refined": null
+}
+]
+},
+{
+"pid": "106",
+"n": 2,
+"n_live": 1,
+"sets": [
+{
+"live": true,
+"status": "OK",
+"mb": 1.1736,
+"dose": 97.3,
+"v3": 1.514,
+"refined": 1.0
+},
+{
+"live": false,
+"status": "OK",
+"mb": 1.1271,
+"dose": 0.0,
+"v3": 5216004579.502,
+"refined": null
+}
+]
+},
+{
+"pid": "108",
+"n": 3,
+"n_live": 0,
+"sets": [
+{
+"live": false,
+"status": "OK",
+"mb": 0.49,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.4679,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+},
+{
+"live": false,
+"status": "OK",
+"mb": 0.4199,
+"dose": 0.0,
+"v3": 4480000000.0,
+"refined": null
+}
+]
+},
+{
+"pid": "109",
+"n": 4,
+"n_live": 4,
+"sets": [
+{
+"live": true,
+"status": "FAIL",
+"ttp": 19
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 20
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 21
+},
+{
+"live": true,
+"status": "FAIL",
+"ttp": 32
+}
+]
+}
+]
