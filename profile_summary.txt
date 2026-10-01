@@ -1,0 +1,6 @@
+patients 67
+grid points inside 95% band (of 9): median 3, >=3 for 35, all 9 for 1
+95% band         TTP spread under continuous therapy (days): median 77, >180 d for 23, >365 d for 16; band spans "never in 4 y" and a finite TTP for 15
+cost within 20%  TTP spread under continuous therapy (days): median 80, >180 d for 24, >365 d for 15; band spans "never in 4 y" and a finite TTP for 14
+forecast RMSE spread inside 95% band: median 0.09, >0.3 for 9
+beats replay baseline with the best in-band fit (chosen with hindsight, optimistic): 38; with every in-band fit: 24 (of 67)

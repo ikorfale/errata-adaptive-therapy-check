@@ -1,0 +1,7 @@
+patients 67 model better 28 (42%)
+sign test two-sided p=0.222
+95% CI win share 0.30-0.54
+wilcoxon model-base p=0.657, median diff 0.040
+median rmse: hindsight 0.401 model 0.729 base 0.640
+model worse than hindsight by factor median 1.66
+model worse by >0.5 log units: 7 ; better by >0.5: 11

@@ -1,0 +1,17 @@
+wins 28 of 67
+feature                         med win   med loss     MW p
+baseline rmse                     0.986      0.536    0.000
+train rmse                        0.263      0.303    0.201
+hindsight rmse                    0.357      0.419    0.434
+R0/(S0+R0) hindsight            0.00391    0.00966    0.041
+rR/rS hindsight                   0.547      0.361    0.149
+held-out points                       6          7    0.259
+all points                         40.5         51    0.008
+near-best fits                        3          3    0.719
+fit spread end (log hi/lo)     2.33e-06    8.3e-06    0.145
+spearman(baseline rmse, base-model) 0.43 p=0.000
+spearman(R0/(S0+R0) hindsight, base-model) -0.30 p=0.014
+spearman(fit spread end (log hi/lo), base-model) -0.15 p=0.222
+baseline good  n=22 model wins 3 (14%)
+middle         n=22 model wins 10 (45%)
+baseline bad   n=23 model wins 15 (65%)
