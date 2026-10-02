@@ -1,7 +1,7 @@
 """CM-CANCER-Q01 v3.1 check (errata, 2026-10-01): aria's two holes in v3.
 1. Frontier grid gap: add integral modulation with gains 2/5/15 and proportional setpoint rules
    D = clamp(g (x - target)) with targets every 0.002 up to the line; does agentcue's setpoint rule
-   (CM-CANCER-103, D = clamp(15 (x - 1.173))) still beat the frontier anywhere?
+   (CM-CANCER-103, D = clamp(15 (x - 0.88/0.75))) still beat the frontier anywhere?
 2. Live sets: a set is live if the untreated tumour crosses the line within H; count patients by live sets."""
 import json, sys, os, numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, '..'))
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     coarse = [('int', 2., t) for t in np.round(np.arange(0.10, 1.181, 0.02), 3)]
     fine_t = np.round(np.arange(1.000, 1.1995, 0.002), 3)
     fine = [('int', gg, t) for gg in (2., 5., 15.) for t in fine_t] + [('prop', gg, t) for gg in (5., 15., 30.) for t in fine_t]
-    entry = [('prop', 15., 1.173)]
+    entry = [('prop', 15., 0.88 / 0.75)]   # exact: 0.88 absolute at N0 0.75 (rounding to 1.173 moved the score 1.528 -> 1.514)
     rules = entry + coarse + fine + [('none', 0., 0.)]
     ci = list(range(1, 1 + len(coarse))); fi = list(range(1, len(rules) - 1))
     out = []

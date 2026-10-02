@@ -367,52 +367,52 @@
 {
 "live": true,
 "status": "OK",
-"mb": 1.185,
-"dose": 386.5,
-"v3": 1.127,
-"refined": 1.0
+"mb": 1.1853,
+"dose": 386.2,
+"v3": 1.128,
+"refined": 1.001
 },
 {
 "live": true,
 "status": "OK",
-"mb": 1.1842,
-"dose": 366.1,
-"v3": 1.129,
+"mb": 1.1845,
+"dose": 365.8,
+"v3": 1.13,
 "refined": 1.003
 },
 {
 "live": true,
 "status": "OK",
-"mb": 1.1835,
-"dose": 349.6,
-"v3": 1.132,
-"refined": 1.002
-},
-{
-"live": true,
-"status": "OK",
-"mb": 1.1831,
-"dose": 338.3,
+"mb": 1.1838,
+"dose": 349.3,
 "v3": 1.134,
 "refined": 1.003
 },
 {
 "live": true,
 "status": "OK",
-"mb": 1.1831,
-"dose": 335.5,
-"v3": 1.129,
-"refined": 1.003
+"mb": 1.1834,
+"dose": 338.0,
+"v3": 1.135,
+"refined": 1.004
+},
+{
+"live": true,
+"status": "OK",
+"mb": 1.1834,
+"dose": 335.2,
+"v3": 1.13,
+"refined": 1.001
 },
 {
 "live": true,
 "status": "FAIL",
-"ttp": 385
+"ttp": 343
 },
 {
 "live": true,
 "status": "FAIL",
-"ttp": 61
+"ttp": 49
 }
 ]
 },
@@ -580,7 +580,7 @@
 {
 "live": true,
 "status": "FAIL",
-"ttp": 55
+"ttp": 41
 }
 ]
 },
@@ -876,7 +876,7 @@
 {
 "live": true,
 "status": "FAIL",
-"ttp": 62
+"ttp": 63
 }
 ]
 },
@@ -1005,7 +1005,7 @@
 {
 "live": true,
 "status": "FAIL",
-"ttp": 49
+"ttp": 112
 },
 {
 "live": true,
@@ -1164,7 +1164,7 @@
 {
 "live": true,
 "status": "FAIL",
-"ttp": 9
+"ttp": 8
 },
 {
 "live": true,
@@ -1206,34 +1206,34 @@
 {
 "live": true,
 "status": "OK",
-"mb": 1.1752,
-"dose": 140.3,
-"v3": 1.008,
-"refined": 1.003
+"mb": 1.1755,
+"dose": 139.9,
+"v3": 1.011,
+"refined": 1.006
 },
 {
 "live": true,
 "status": "OK",
-"mb": 1.1742,
-"dose": 116.1,
-"v3": 1.0,
-"refined": 1.0
+"mb": 1.1745,
+"dose": 115.6,
+"v3": 1.004,
+"refined": 1.001
 },
 {
 "live": true,
 "status": "OK",
-"mb": 1.1723,
-"dose": 76.0,
-"v3": 1.368,
-"refined": 1.004
+"mb": 1.1726,
+"dose": 75.6,
+"v3": 1.377,
+"refined": 1.002
 },
 {
 "live": false,
 "status": "OK",
-"mb": 1.1693,
-"dose": 20.2,
-"v3": 2.279,
-"refined": 0.941
+"mb": 1.1696,
+"dose": 19.7,
+"v3": 2.334,
+"refined": 0.963
 },
 {
 "live": false,
@@ -1376,10 +1376,10 @@
 {
 "live": true,
 "status": "OK",
-"mb": 1.1754,
-"dose": 154.5,
-"v3": 0.998,
-"refined": 0.998
+"mb": 1.1757,
+"dose": 153.8,
+"v3": 1.003,
+"refined": 1.001
 }
 ]
 },
@@ -1553,12 +1553,12 @@
 {
 "live": true,
 "status": "FAIL",
-"ttp": 55
+"ttp": 54
 },
 {
 "live": true,
 "status": "FAIL",
-"ttp": 350
+"ttp": 812
 }
 ]
 },
@@ -1607,10 +1607,10 @@
 {
 "live": true,
 "status": "OK",
-"mb": 1.1744,
-"dose": 143.0,
-"v3": 1.429,
-"refined": 1.007
+"mb": 1.1746,
+"dose": 141.7,
+"v3": 1.441,
+"refined": 1.016
 }
 ]
 },
@@ -1933,10 +1933,10 @@
 {
 "live": true,
 "status": "OK",
-"mb": 1.1736,
-"dose": 97.3,
-"v3": 1.514,
-"refined": 1.0
+"mb": 1.1739,
+"dose": 96.4,
+"v3": 1.528,
+"refined": 1.01
 },
 {
 "live": false,
