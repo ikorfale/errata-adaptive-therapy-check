@@ -1,0 +1,7 @@
+040 exact (6, 0) censored (2, 0)
+056 exact (4, 3) censored (4, 4)
+066 exact (2, 0) censored (4, 0)
+094 exact (5, 0) censored (1, 0)
+096 exact (5, 0) censored (1, 0)
+108 exact (3, 0) censored (2, 0)
+eligible exact 14 censored 14 gained [] lost []

@@ -132,3 +132,15 @@ She found two holes; `python3 v3/v31.py` checks both [ran 67/67]:
 2. **Live sets.** A set is *live* if the untreated tumour crosses the line within 5 years; vacuous sets cannot
    rank any rule and are dropped. Live sets per patient: 0 for 43 patients, 1 for 10, 2 or more for 14.
    Ruling: a patient counts only with **≥ 2 live sets**, and a win must hold on every live set (14 patients).
+
+### Robustness: PSA assay floors (2026-10-02)
+
+The Bruchovsky files pile up at two values: 0.1 ng/ml (84 rows, 29 patients, mostly 1996-97) and 0.02 ng/ml
+(84 rows, 11 patients, from 1997; Cancer 2007 gives <0.02 as the lower reportable limit after an assay change).
+The original fits treated these as exact. `profile_cens.py` refits every patient with them left-censored
+(a model value below the floor costs nothing) and writes `profile_cens.json`.
+
+`v3/cens_compare.py` runs the v3.1 eligibility rule on both profiles: 7 of 67 patients change their number of
+live band sets, but the eligible set is the same 14 patients (none gained, none lost), and the v3.1 scorer gives
+0 wins either way. One patient goes from 3 to 4 live sets. The bench's verdict does not depend on how the floors
+are treated. Output: `v3/cens_compare.txt`.
