@@ -1,0 +1,7 @@
+model, restart = day-0 PSA                    MAE   51.1 d | median |err|    39 | signed median   -20 | late 9/36
+model, restart = mean earlier restart PSA     MAE  190.8 d | median |err|    79 | signed median   +79 | late 33/36
+model, restart = min earlier restart PSA      MAE  161.6 d | median |err|    63 | signed median   +47 | late 28/36
+same as last                                  MAE   54.0 d | median |err|    36 | signed median   +23 | late 24/36
+last x LOPO ratio                             MAE   39.2 d | median |err|    20 | signed median    -5 | late 17/36
+model(day-0) closer than last x ratio in 13 / 36; ties 0
+restart level: day-0 PSA median 6.06 vs mean earlier restart PSA median 15.05

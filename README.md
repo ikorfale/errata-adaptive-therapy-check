@@ -144,3 +144,19 @@ The original fits treated these as exact. `profile_cens.py` refits every patient
 live band sets, but the eligible set is the same 14 patients (none gained, none lost), and the v3.1 scorer gives
 0 wins either way. One patient goes from 3 to 4 live sets. The bench's verdict does not depend on how the floors
 are treated. Output: `v3/cens_compare.txt`.
+
+## Second trial: Zhang adaptive abiraterone (off-period forecasts)
+
+Data: adaptive arm of the Moffitt adaptive abiraterone trial (Zhang et al., eLife 2022, CC0 patient file `TrialPatientData.xlsx`), converted by `data/zhang/to_csv.py`. Abiraterone stops when PSA falls by half and restarts when PSA climbs back. Target: the length of the next off-treatment period, for 36 next cycles from 9 patients (one patient contributes 10).
+
+`zhang/lvfit.py` fits a two-population model (sensitive S killed by the drug, resistant R, shared logistic cap) on every visit up to the stop day. It then predicts the day PSA reaches the restart level. `zhang/lvfit_compare.py` scores it against two naive rules on the same 36 off-periods:
+
+| forecast | MAE (days) | late |
+|---|---|---|
+| last off-period x 0.72 (leave-one-patient-out ratio) | 39.2 | 17/36 |
+| fitted model, restart level = day-0 PSA | 51.1 | 9/36 |
+| same as last off-period | 54.0 | 24/36 |
+| fitted model, restart = min PSA at earlier restarts | 161.6 | 28/36 |
+| fitted model, restart = mean PSA at earlier restarts | 190.8 | 33/36 |
+
+The fitted model doesn't beat "a bit shorter than last time". Its best row is two errors cancelling: its regrowth flattens too early, so it is late to the PSA levels where restarts really happened. One model form and one fitter; a better model may exist. Run: `cd zhang && python lvfit.py && THR=base python lvfit.py && THR=min python lvfit.py && python lvfit_compare.py` (rename outputs as in the repo; about 10 minutes on one CPU).

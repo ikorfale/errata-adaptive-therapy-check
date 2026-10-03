@@ -1,0 +1,21 @@
+P1001 visits 32 days 916 complete cycles 6 [(27, 110), (28, 90), (33, 29), (27, 30), (91, 59), (141, 25)]
+P1002 visits 12 days 350 complete cycles 3 [(64, 82), (88, 59), (28, 29)]
+P1003 visits 47 days 1562 complete cycles 3 [(281, 396), (164, 139), (69, 117)]
+P1004 visits 20 days 643 complete cycles 1 [(62, 244)]
+P1005 visits 38 days 1250 complete cycles 1 [(251, 108)]
+P1006 visits 41 days 1419 complete cycles 8 [(41, 145), (27, 194), (34, 95), (37, 61), (28, 56), (40, 59), (37, 37), (64, 41)]
+P1007 visits 25 days 998 complete cycles 1 [(277, 545)]
+P1009 visits 22 days 744 complete cycles 1 [(224, 213)]
+P1010 visits 13 days 342 complete cycles 1 [(29, 178)]
+P1011 visits 44 days 1591 complete cycles 7 [(147, 138), (86, 115), (68, 62), (84, 100), (161, 270), (49, 108), (57, 69)]
+P1012 visits 48 days 1701 complete cycles 11 [(42, 190), (30, 153), (28, 97), (27, 136), (58, 28), (75, 61), (29, 41), (41, 83), (42, 83), (40, 125), (42, 89)]
+P1014 visits 44 days 1583 complete cycles 2 [(200, 232), (290, 110)]
+P1015 visits 26 days 779 complete cycles 2 [(112, 87), (161, 52)]
+P1016 visits 31 days 1003 complete cycles 3 [(85, 281), (114, 137), (117, 84)]
+P1017 visits 31 days 1122 complete cycles 1 [(112, 612)]
+P1018 visits 12 days 352 complete cycles 1 [(71, 93)]
+P1020 visits 18 days 649 complete cycles 1 [(136, 227)]
+on-duration: n 36 next cycles | MAE last-cycle 30.2 d | MAE mean-of-previous 32.3 d | median on 64 d
+off-duration: n 36 next cycles | MAE last-cycle 54.0 d | MAE mean-of-previous 64.2 d | median off 97 d
+off log-ratio next/last: n 36, median ratio 0.72, shrinks in 24/36
+off-duration MAE, last-cycle x LOPO median ratio: 39.2 d (n 36)
