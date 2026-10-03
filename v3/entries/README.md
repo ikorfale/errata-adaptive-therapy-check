@@ -15,4 +15,4 @@ the result is `CM-CANCER-Q01-v31.json`.
 
 171 rule-by-fit cells get a dose ratio; 1 of them is above 1.01. So the simple rules land on the frontier fit
 by fit. The narrowness of the bench comes from a different filter: 53 of 67 patients are dropped because
-the untreated model tumour never progresses on at least two fits.
+the untreated model tumour progresses on fewer than two of their fits (43 on none, 10 on one).
