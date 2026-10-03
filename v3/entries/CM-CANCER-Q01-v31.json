@@ -1,0 +1,7187 @@
+{
+"spec": "errata v3.1 (Abund aba281df, a63c3170)",
+"summary": {
+"patients": 67,
+"patients_by_live_sets": {
+"0": 43,
+"1": 10,
+"2": 1,
+"3": 5,
+"4": 3,
+"5": 2,
+"6": 1,
+"7": 1,
+"8": 1
+},
+"eligible": 14,
+"min_live_sets": 2,
+"entries": {
+"mtd": {
+"win": 0,
+"fail_some": 4,
+"below_some": 10
+},
+"adaptive50": {
+"win": 0,
+"fail_some": 7,
+"below_some": 0
+},
+"replay_cycle1": {
+"win": 0,
+"fail_some": 14,
+"below_some": 0
+},
+"mod_1.00": {
+"win": 0,
+"fail_some": 2,
+"below_some": 0
+},
+"mod_0.50": {
+"win": 0,
+"fail_some": 4,
+"below_some": 0
+},
+"setpoint_088": {
+"win": 0,
+"fail_some": 13,
+"below_some": 0
+}
+}
+},
+"patients": {
+"001": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"002": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"FAIL",
+1083
+],
+"adaptive50": [
+"FAIL",
+1732
+],
+"replay_cycle1": [
+"FAIL",
+604
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9976,
+561.2,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1363
+],
+"setpoint_088": [
+"FAIL",
+21
+]
+}
+]
+},
+"003": {
+"n_band": 3,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"004": {
+"n_band": 5,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"006": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"011": {
+"n_band": 3,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"012": {
+"n_band": 6,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"013": {
+"n_band": 4,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"014": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"015": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"016": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"017": {
+"n_band": 3,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"019": {
+"n_band": 3,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"020": {
+"n_band": 7,
+"n_live": 7,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"FAIL",
+871
+],
+"adaptive50": [
+"FAIL",
+1328
+],
+"replay_cycle1": [
+"FAIL",
+595
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9998,
+658.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1089
+],
+"setpoint_088": [
+"OK",
+1.0007,
+1.1853,
+386.2,
+{
+"v3": 1.1278,
+"refined": 1.0007
+}
+]
+},
+{
+"mtd": [
+"FAIL",
+908
+],
+"adaptive50": [
+"FAIL",
+1404
+],
+"replay_cycle1": [
+"FAIL",
+601
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9979,
+563.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1144
+],
+"setpoint_088": [
+"OK",
+1.0035,
+1.1845,
+365.8,
+{
+"v3": 1.1299,
+"refined": 1.0035
+}
+]
+},
+{
+"mtd": [
+"FAIL",
+977
+],
+"adaptive50": [
+"FAIL",
+1619
+],
+"replay_cycle1": [
+"FAIL",
+607
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9976,
+529.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1235
+],
+"setpoint_088": [
+"OK",
+1.0029,
+1.1838,
+349.3,
+{
+"v3": 1.1335,
+"refined": 1.0029
+}
+]
+},
+{
+"mtd": [
+"FAIL",
+1195
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7757,
+1076.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+614
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9975,
+509.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1486
+],
+"setpoint_088": [
+"OK",
+1.0037,
+1.1834,
+338.0,
+{
+"v3": 1.1347,
+"refined": 1.0037
+}
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.6955,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.9617,
+0.7149,
+964.0,
+{
+"v3": 0.9617,
+"refined": 0.9617
+}
+],
+"replay_cycle1": [
+"FAIL",
+622
+],
+"mod_1.00": [
+"OK",
+0.9991,
+0.9974,
+497.4,
+{
+"v3": 0.9991,
+"refined": 0.9991
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6959,
+1368.2,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"OK",
+1.0005,
+1.1834,
+335.2,
+{
+"v3": 1.1295,
+"refined": 1.0005
+}
+]
+},
+{
+"mtd": [
+"OK",
+1.0,
+0.6033,
+1825.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"adaptive50": [
+"OK",
+0.9825,
+0.7333,
+684.0,
+{
+"v3": 0.9825,
+"refined": 0.9825
+}
+],
+"replay_cycle1": [
+"FAIL",
+627
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9974,
+497.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6048,
+1285.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+343
+]
+},
+{
+"mtd": [
+"OK",
+1.0,
+0.4858,
+1825.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"adaptive50": [
+"OK",
+0.9875,
+0.7237,
+677.0,
+{
+"v3": 0.9875,
+"refined": 0.9875
+}
+],
+"replay_cycle1": [
+"FAIL",
+628
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9976,
+540.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.508,
+942.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+49
+]
+}
+]
+},
+"024": {
+"n_band": 3,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"025": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"026": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"028": {
+"n_band": 9,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"029": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.5112,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7027,
+658.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+672
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9974,
+502.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5147,
+975.2,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+41
+]
+}
+]
+},
+"030": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"031": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.6618,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.9739,
+0.7284,
+460.0,
+{
+"v3": 0.9739,
+"refined": 0.9739
+}
+],
+"replay_cycle1": [
+"FAIL",
+806
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9958,
+319.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6619,
+1115.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+56
+]
+}
+]
+},
+"032": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"036": {
+"n_band": 5,
+"n_live": 5,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"FAIL",
+736
+],
+"adaptive50": [
+"FAIL",
+1101
+],
+"replay_cycle1": [
+"FAIL",
+424
+],
+"mod_1.00": [
+"FAIL",
+1530
+],
+"mod_0.50": [
+"FAIL",
+920
+],
+"setpoint_088": [
+"FAIL",
+14
+]
+},
+{
+"mtd": [
+"FAIL",
+756
+],
+"adaptive50": [
+"FAIL",
+1177
+],
+"replay_cycle1": [
+"FAIL",
+426
+],
+"mod_1.00": [
+"FAIL",
+1703
+],
+"mod_0.50": [
+"FAIL",
+953
+],
+"setpoint_088": [
+"FAIL",
+13
+]
+},
+{
+"mtd": [
+"FAIL",
+791
+],
+"adaptive50": [
+"FAIL",
+1263
+],
+"replay_cycle1": [
+"FAIL",
+428
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9995,
+994.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1004
+],
+"setpoint_088": [
+"FAIL",
+13
+]
+},
+{
+"mtd": [
+"FAIL",
+883
+],
+"adaptive50": [
+"FAIL",
+1452
+],
+"replay_cycle1": [
+"FAIL",
+431
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9991,
+946.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1120
+],
+"setpoint_088": [
+"FAIL",
+13
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.7884,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7898,
+1293.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+437
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9991,
+943.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.7884,
+1553.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+12
+]
+}
+]
+},
+"037": {
+"n_band": 8,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"039": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"040": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"042": {
+"n_band": 3,
+"n_live": 3,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.9305,
+0.6147,
+1825.0,
+{
+"v3": 0.9305,
+"refined": 0.9305
+}
+],
+"adaptive50": [
+"OK",
+0.9831,
+0.7183,
+712.0,
+{
+"v3": 0.9831,
+"refined": 0.9831
+}
+],
+"replay_cycle1": [
+"FAIL",
+668
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9978,
+543.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6147,
+1295.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+17
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.5376,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7262,
+700.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+691
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9978,
+553.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5381,
+1084.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+19
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.4373,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.9738,
+0.7436,
+726.0,
+{
+"v3": 0.9738,
+"refined": 0.9738
+}
+],
+"replay_cycle1": [
+"FAIL",
+697
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9979,
+578.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5021,
+816.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+40
+]
+}
+]
+},
+"044": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"046": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.0541,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.959,
+0.7439,
+504.0,
+{
+"v3": 0.959,
+"refined": 0.959
+}
+],
+"replay_cycle1": [
+"OK",
+null,
+0.0798,
+560.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9968,
+477.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9952,
+0.4982,
+490.5,
+{
+"v3": 0.9952,
+"refined": 0.9952
+}
+],
+"setpoint_088": [
+"FAIL",
+63
+]
+}
+]
+},
+"050": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"051": {
+"n_band": 5,
+"n_live": 5,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.9456,
+0.7709,
+1825.0,
+{
+"v3": 0.9456,
+"refined": 0.9456
+}
+],
+"adaptive50": [
+"FAIL",
+32
+],
+"replay_cycle1": [
+"FAIL",
+349
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9998,
+1598.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9665,
+0.7709,
+1785.5,
+{
+"v3": 0.9665,
+"refined": 0.9665
+}
+],
+"setpoint_088": [
+"FAIL",
+1
+]
+},
+{
+"mtd": [
+"OK",
+0.9489,
+0.7849,
+1825.0,
+{
+"v3": 0.9489,
+"refined": 0.9489
+}
+],
+"adaptive50": [
+"FAIL",
+32
+],
+"replay_cycle1": [
+"FAIL",
+350
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9998,
+1601.2,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9691,
+0.7849,
+1786.8,
+{
+"v3": 0.9691,
+"refined": 0.9691
+}
+],
+"setpoint_088": [
+"FAIL",
+1
+]
+},
+{
+"mtd": [
+"OK",
+0.9569,
+0.7932,
+1825.0,
+{
+"v3": 0.9569,
+"refined": 0.9569
+}
+],
+"adaptive50": [
+"FAIL",
+40
+],
+"replay_cycle1": [
+"FAIL",
+351
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9998,
+1606.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9761,
+0.7932,
+1789.2,
+{
+"v3": 0.9761,
+"refined": 0.9761
+}
+],
+"setpoint_088": [
+"FAIL",
+2
+]
+},
+{
+"mtd": [
+"OK",
+0.9657,
+0.7596,
+1825.0,
+{
+"v3": 0.9657,
+"refined": 0.9657
+}
+],
+"adaptive50": [
+"FAIL",
+40
+],
+"replay_cycle1": [
+"FAIL",
+351
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9998,
+1622.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9858,
+0.7596,
+1787.8,
+{
+"v3": 0.9858,
+"refined": 0.9858
+}
+],
+"setpoint_088": [
+"FAIL",
+1
+]
+},
+{
+"mtd": [
+"OK",
+0.9806,
+0.7153,
+1825.0,
+{
+"v3": 0.9806,
+"refined": 0.9806
+}
+],
+"adaptive50": [
+"FAIL",
+32
+],
+"replay_cycle1": [
+"FAIL",
+352
+],
+"mod_1.00": [
+"OK",
+1.0,
+1.0005,
+1637.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.7153,
+1783.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+1
+]
+}
+]
+},
+"052": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"054": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.3407,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.9981,
+0.7264,
+1043.0,
+{
+"v3": 0.9981,
+"refined": 0.9981
+}
+],
+"replay_cycle1": [
+"FAIL",
+504
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.999,
+888.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5044,
+1144.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+14
+]
+}
+]
+},
+"055": {
+"n_band": 3,
+"n_live": 3,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.954,
+0.5796,
+1825.0,
+{
+"v3": 0.954,
+"refined": 0.954
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7605,
+1377.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+371
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9994,
+1205.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5796,
+1667.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+7
+]
+},
+{
+"mtd": [
+"OK",
+0.978,
+0.5104,
+1825.0,
+{
+"v3": 0.978,
+"refined": 0.978
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.774,
+1216.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+404
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9992,
+1056.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.511,
+1463.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+9
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.4252,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"FAIL",
+68
+],
+"replay_cycle1": [
+"FAIL",
+397
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9995,
+1298.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5023,
+1412.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+4
+]
+}
+]
+},
+"056": {
+"n_band": 4,
+"n_live": 4,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.6256,
+0.6306,
+1825.0,
+{
+"v3": 0.6256,
+"refined": 0.6256
+}
+],
+"adaptive50": [
+"OK",
+0.9793,
+0.7203,
+434.0,
+{
+"v3": 0.9793,
+"refined": 0.9793
+}
+],
+"replay_cycle1": [
+"FAIL",
+1153
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9955,
+263.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6306,
+1141.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+119
+]
+},
+{
+"mtd": [
+"OK",
+0.6542,
+0.617,
+1825.0,
+{
+"v3": 0.6542,
+"refined": 0.6542
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7285,
+392.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+1163
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9949,
+238.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.617,
+1089.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+153
+]
+},
+{
+"mtd": [
+"OK",
+0.7234,
+0.5994,
+1825.0,
+{
+"v3": 0.7234,
+"refined": 0.7234
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7446,
+369.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+1173
+],
+"mod_1.00": [
+"OK",
+0.9962,
+0.9947,
+239.5,
+{
+"v3": 1.0,
+"refined": 0.9962
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5994,
+1037.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+28
+]
+},
+{
+"mtd": [
+"OK",
+0.8272,
+0.5781,
+1825.0,
+{
+"v3": 0.8272,
+"refined": 0.8272
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7208,
+369.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+1187
+],
+"mod_1.00": [
+"OK",
+0.9973,
+0.9945,
+238.4,
+{
+"v3": 1.0,
+"refined": 0.9973
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5781,
+972.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+28
+]
+}
+]
+},
+"058": {
+"n_band": 7,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"060": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"061": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+0.997,
+0.7232,
+1825.0,
+{
+"v3": 0.997,
+"refined": 0.997
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7249,
+1139.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+539
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9987,
+775.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.7232,
+1633.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+17
+]
+}
+]
+},
+"062": {
+"n_band": 4,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"063": {
+"n_band": 8,
+"n_live": 8,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"FAIL",
+674
+],
+"adaptive50": [
+"FAIL",
+965
+],
+"replay_cycle1": [
+"FAIL",
+381
+],
+"mod_1.00": [
+"FAIL",
+1344
+],
+"mod_0.50": [
+"FAIL",
+824
+],
+"setpoint_088": [
+"FAIL",
+9
+]
+},
+{
+"mtd": [
+"FAIL",
+687
+],
+"adaptive50": [
+"FAIL",
+1043
+],
+"replay_cycle1": [
+"FAIL",
+382
+],
+"mod_1.00": [
+"FAIL",
+1465
+],
+"mod_0.50": [
+"FAIL",
+844
+],
+"setpoint_088": [
+"FAIL",
+8
+]
+},
+{
+"mtd": [
+"FAIL",
+708
+],
+"adaptive50": [
+"FAIL",
+1094
+],
+"replay_cycle1": [
+"FAIL",
+383
+],
+"mod_1.00": [
+"FAIL",
+1656
+],
+"mod_0.50": [
+"FAIL",
+873
+],
+"setpoint_088": [
+"FAIL",
+8
+]
+},
+{
+"mtd": [
+"FAIL",
+765
+],
+"adaptive50": [
+"FAIL",
+1223
+],
+"replay_cycle1": [
+"FAIL",
+386
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9997,
+1230.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+940
+],
+"setpoint_088": [
+"FAIL",
+8
+]
+},
+{
+"mtd": [
+"FAIL",
+1018
+],
+"adaptive50": [
+"FAIL",
+77
+],
+"replay_cycle1": [
+"FAIL",
+389
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9993,
+1212.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1206
+],
+"setpoint_088": [
+"FAIL",
+7
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.7583,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"FAIL",
+63
+],
+"replay_cycle1": [
+"FAIL",
+384
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9995,
+1302.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.7589,
+1644.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+6
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.0601,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"FAIL",
+630
+],
+"replay_cycle1": [
+"FAIL",
+371
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9994,
+1320.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5081,
+1412.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+8
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.0576,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"FAIL",
+1330
+],
+"replay_cycle1": [
+"FAIL",
+370
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9996,
+1347.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9948,
+0.5084,
+1440.5,
+{
+"v3": 0.9948,
+"refined": 0.9948
+}
+],
+"setpoint_088": [
+"FAIL",
+13
+]
+}
+]
+},
+"064": {
+"n_band": 6,
+"n_live": 3,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.754,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7556,
+908.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+701
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9968,
+373.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.754,
+1331.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"OK",
+1.0062,
+1.1755,
+139.9,
+{
+"v3": 1.0109,
+"refined": 1.0062
+}
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.7111,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.9951,
+0.728,
+761.0,
+{
+"v3": 0.9951,
+"refined": 0.9951
+}
+],
+"replay_cycle1": [
+"FAIL",
+732
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9966,
+352.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.7112,
+1309.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"OK",
+1.0005,
+1.1745,
+115.6,
+{
+"v3": 1.0039,
+"refined": 1.0005
+}
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.6527,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7425,
+565.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"OK",
+1.2531,
+0.6566,
+719.0,
+{
+"v3": 1.2531,
+"refined": 1.2531,
+"local": null
+}
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9964,
+317.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6527,
+1261.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"OK",
+1.0022,
+1.1726,
+75.6,
+{
+"v3": 1.3766,
+"refined": 1.0022
+}
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"066": {
+"n_band": 4,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"075": {
+"n_band": 6,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"077": {
+"n_band": 6,
+"n_live": 6,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.9372,
+0.5715,
+1825.0,
+{
+"v3": 0.9372,
+"refined": 0.9372
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7703,
+1321.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+357
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9993,
+1205.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5715,
+1564.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+5
+]
+},
+{
+"mtd": [
+"OK",
+0.9567,
+0.5354,
+1825.0,
+{
+"v3": 0.9567,
+"refined": 0.9567
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.8068,
+1307.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+358
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9994,
+1209.2,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5355,
+1521.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+5
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.4834,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.8034,
+1307.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+360
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9994,
+1213.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5031,
+1423.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+5
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.4011,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"FAIL",
+42
+],
+"replay_cycle1": [
+"FAIL",
+360
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9994,
+1240.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.993,
+0.503,
+1416.9,
+{
+"v3": 0.993,
+"refined": 0.993
+}
+],
+"setpoint_088": [
+"FAIL",
+4
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.1368,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"FAIL",
+49
+],
+"replay_cycle1": [
+"FAIL",
+354
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9994,
+1313.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5034,
+1452.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+4
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.0325,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"FAIL",
+49
+],
+"replay_cycle1": [
+"FAIL",
+351
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9995,
+1339.2,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5036,
+1466.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+4
+]
+}
+]
+},
+"078": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.585,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.9889,
+0.7529,
+630.0,
+{
+"v3": 0.9889,
+"refined": 0.9889
+}
+],
+"replay_cycle1": [
+"FAIL",
+715
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9971,
+392.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5851,
+1251.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"OK",
+1.0005,
+1.1757,
+153.8,
+{
+"v3": 1.0026,
+"refined": 1.0005
+}
+]
+}
+]
+},
+"079": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"081": {
+"n_band": 3,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"083": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"084": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"086": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"087": {
+"n_band": 5,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"088": {
+"n_band": 2,
+"n_live": 2,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.6204,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.97,
+0.7276,
+700.0,
+{
+"v3": 0.97,
+"refined": 0.97
+}
+],
+"replay_cycle1": [
+"FAIL",
+596
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9975,
+488.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6204,
+1303.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+54
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.5209,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7295,
+635.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+663
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9972,
+431.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5221,
+1012.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+812
+]
+}
+]
+},
+"091": {
+"n_band": 4,
+"n_live": 4,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.903,
+0.6632,
+1825.0,
+{
+"v3": 0.903,
+"refined": 0.903
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7668,
+1097.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+382
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9991,
+959.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6632,
+1513.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+9
+]
+},
+{
+"mtd": [
+"OK",
+0.9334,
+0.6242,
+1825.0,
+{
+"v3": 0.9334,
+"refined": 0.9334
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7486,
+1097.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+385
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9991,
+948.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6242,
+1486.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+9
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.5773,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7575,
+1069.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+391
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.999,
+928.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5773,
+1431.7,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+10
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.5178,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7512,
+1041.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+403
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.999,
+892.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5193,
+1295.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+10
+]
+}
+]
+},
+"093": {
+"n_band": 3,
+"n_live": 3,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.8734,
+0.5794,
+1825.0,
+{
+"v3": 0.8734,
+"refined": 0.8734
+}
+],
+"adaptive50": [
+"OK",
+0.9896,
+0.7236,
+1153.0,
+{
+"v3": 0.9896,
+"refined": 0.9896
+}
+],
+"replay_cycle1": [
+"FAIL",
+390
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.999,
+825.3,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5794,
+1517.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+20
+]
+},
+{
+"mtd": [
+"OK",
+0.8964,
+0.5374,
+1825.0,
+{
+"v3": 0.8964,
+"refined": 0.8964
+}
+],
+"adaptive50": [
+"OK",
+0.9862,
+0.7738,
+1015.0,
+{
+"v3": 0.9862,
+"refined": 0.9862
+}
+],
+"replay_cycle1": [
+"FAIL",
+410
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9989,
+748.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5374,
+1411.2,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+91
+]
+},
+{
+"mtd": [
+"OK",
+0.9209,
+0.4801,
+1825.0,
+{
+"v3": 0.9209,
+"refined": 0.9209
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.744,
+971.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+477
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9986,
+635.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9968,
+0.5031,
+1193.9,
+{
+"v3": 0.9968,
+"refined": 0.9968
+}
+],
+"setpoint_088": [
+"OK",
+1.0043,
+1.1746,
+141.7,
+{
+"v3": 1.4418,
+"refined": 1.0043
+}
+]
+}
+]
+},
+"094": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"095": {
+"n_band": 6,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"096": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"097": {
+"n_band": 1,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"099": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"FAIL",
+1730
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7122,
+698.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+729
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9973,
+685.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5193,
+857.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+9
+]
+}
+]
+},
+"100": {
+"n_band": 4,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"101": {
+"n_band": 1,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+null,
+0.4225,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+0.9898,
+0.7301,
+866.0,
+{
+"v3": 0.9898,
+"refined": 0.9898
+}
+],
+"replay_cycle1": [
+"FAIL",
+588
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9988,
+813.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5018,
+907.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+12
+]
+}
+]
+},
+"102": {
+"n_band": 3,
+"n_live": 3,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"OK",
+0.9386,
+0.5858,
+1825.0,
+{
+"v3": 0.9386,
+"refined": 0.9386
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.733,
+1524.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+343
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9995,
+1314.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+0.9978,
+0.5858,
+1716.8,
+{
+"v3": 0.9978,
+"refined": 0.9978
+}
+],
+"setpoint_088": [
+"FAIL",
+5
+]
+},
+{
+"mtd": [
+"OK",
+0.951,
+0.5427,
+1825.0,
+{
+"v3": 0.951,
+"refined": 0.951
+}
+],
+"adaptive50": [
+"OK",
+0.9862,
+0.7103,
+1524.0,
+{
+"v3": 0.9862,
+"refined": 0.9862
+}
+],
+"replay_cycle1": [
+"FAIL",
+345
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9995,
+1289.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5427,
+1681.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+6
+]
+},
+{
+"mtd": [
+"OK",
+0.967,
+0.5028,
+1825.0,
+{
+"v3": 0.967,
+"refined": 0.967
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.738,
+1524.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+343
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9995,
+1341.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5052,
+1624.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+5
+]
+}
+]
+},
+"104": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"105": {
+"n_band": 4,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"106": {
+"n_band": 2,
+"n_live": 1,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"OK",
+0.8893,
+0.5427,
+1825.0,
+{
+"v3": 0.8893,
+"refined": 0.8893
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7501,
+840.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+648
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9981,
+522.6,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.5427,
+1302.4,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"OK",
+1.0097,
+1.1739,
+96.4,
+{
+"v3": 1.5278,
+"refined": 1.0097
+}
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"108": {
+"n_band": 2,
+"n_live": 0,
+"eligible": false,
+"sets": [
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+},
+{
+"mtd": [
+"VACUOUS",
+null
+],
+"adaptive50": [
+"VACUOUS",
+null
+],
+"replay_cycle1": [
+"VACUOUS",
+null
+],
+"mod_1.00": [
+"VACUOUS",
+null
+],
+"mod_0.50": [
+"VACUOUS",
+null
+],
+"setpoint_088": [
+"VACUOUS",
+null
+]
+}
+]
+},
+"109": {
+"n_band": 4,
+"n_live": 4,
+"eligible": true,
+"sets": [
+{
+"mtd": [
+"FAIL",
+821
+],
+"adaptive50": [
+"FAIL",
+1421
+],
+"replay_cycle1": [
+"FAIL",
+478
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9988,
+786.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"FAIL",
+1094
+],
+"setpoint_088": [
+"FAIL",
+19
+]
+},
+{
+"mtd": [
+"OK",
+0.9442,
+0.7905,
+1825.0,
+{
+"v3": 0.9442,
+"refined": 0.9442
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7906,
+1209.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+485
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9986,
+747.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.7905,
+1504.5,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+20
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.7005,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7286,
+943.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+498
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9985,
+697.8,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.7005,
+1454.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+21
+]
+},
+{
+"mtd": [
+"OK",
+null,
+0.6044,
+1825.0,
+{
+"v3": null,
+"refined": null
+}
+],
+"adaptive50": [
+"OK",
+1.0,
+0.7136,
+847.0,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"replay_cycle1": [
+"FAIL",
+519
+],
+"mod_1.00": [
+"OK",
+1.0,
+0.9983,
+645.9,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"mod_0.50": [
+"OK",
+1.0,
+0.6045,
+1345.1,
+{
+"v3": 1.0,
+"refined": 1.0
+}
+],
+"setpoint_088": [
+"FAIL",
+32
+]
+}
+]
+}
+}
+}

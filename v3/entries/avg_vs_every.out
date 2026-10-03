@@ -1,0 +1,8 @@
+eligible patients 14
+mtd           every-fit 0 | mean, no fail 0 | mean over held fits 0 | top (mean,max,pid,ok,fail,below) [(1.0, 1.0, '020', 2, 4, 1), (0.966, 0.978, '055', 2, 0, 1)]
+adaptive50    every-fit 0 | mean, no fail 0 | mean over held fits 0 | top (mean,max,pid,ok,fail,below) [(1.0, 1.0, '109', 3, 1, 0), (1.0, 1.0, '091', 4, 0, 0)]
+replay_cycle1 every-fit 0 | mean, no fail 0 | mean over held fits 1 | top (mean,max,pid,ok,fail,below) [(1.253, 1.253, '064', 1, 2, 0)]
+mod_1.00      every-fit 0 | mean, no fail 0 | mean over held fits 0 | top (mean,max,pid,ok,fail,below) [(1.0, 1.0, '109', 4, 0, 0), (1.0, 1.0, '102', 3, 0, 0)]
+mod_0.50      every-fit 0 | mean, no fail 0 | mean over held fits 0 | top (mean,max,pid,ok,fail,below) [(1.0, 1.0, '109', 3, 1, 0), (1.0, 1.0, '091', 4, 0, 0)]
+setpoint_088  every-fit 0 | mean, no fail 0 | mean over held fits 0 | top (mean,max,pid,ok,fail,below) [(1.004, 1.004, '093', 1, 2, 0), (1.003, 1.006, '064', 3, 0, 0)]
+all OK live-fit scores: n 171, max 1.253, >1.01: 1
