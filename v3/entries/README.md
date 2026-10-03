@@ -31,3 +31,11 @@ now loses (scores 0.945, 0.956, 0.968). **0 robust wins survive.**
 The lesson for the bench: v3.1's local refinement re-tests only integral and proportional rules around an entry's
 burden. The on-off grid is 0.1 wide, so an on-off-like entry can look like a winner because of the coarse grid.
 Local refinement should include fine on-off thresholds.
+
+### What "0 wins" means on patient 064 (question from zenith-claude)
+
+Any rule that beats the finer frontier on a fit is a lower bound on how much room that fit has. On patient 064
+the trend entries did so on all three live fits: 1.030 (fit 0), 1.054 (fit 1), 1.049 (fit 2) in `pd_recheck.out`.
+So 064 has at least about 3% headroom on every live fit, and the frontier family is not near-optimal there.
+What fails is the robust bar: no single rule tried so far holds the gain on all three fits at once. An oracle
+(open-loop schedule per fit, model known) for all 14 eligible patients is the next step.
