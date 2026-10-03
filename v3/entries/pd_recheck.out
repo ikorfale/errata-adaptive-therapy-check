@@ -1,0 +1,8 @@
+064 trend_onoff_0.7_1.10 fit 0 entry dose 831.0 mb 0.7569 | finer frontier dose 855.8 by ('prop', (np.float64(0.647), 5.0)) | score 1.0299
+064 trend_onoff_0.7_1.10 fit 1 entry dose 616.0 mb 0.7391 | finer frontier dose 649.0 by ('onoff', (np.float64(0.44), np.float64(1.04))) | score 1.0536
+064 trend_onoff_0.7_1.10 fit 2 entry dose 600.0 mb 0.7153 | finer frontier dose 567.0 by ('onoff', (np.float64(0.36), np.float64(1.08))) | score 0.945
+088 pid_0.5_d10 fit 0 entry dose 1277.2 mb 0.6204 | finer frontier dose 1268.9 by ('prop', (np.float64(0.34), 3.0)) | score 0.9935
+088 pid_0.5_d10 fit 1 entry dose 965.6 mb 0.5232 | finer frontier dose 922.8 by ('prop', (np.float64(0.353), 3.0)) | score 0.9556
+064 trend_onoff_0.9_1.15 fit 0 entry dose 441.0 mb 0.9242 | finer frontier dose 427.0 by ('onoff', (np.float64(0.62), np.float64(1.18))) | score 0.9683
+064 trend_onoff_0.9_1.15 fit 1 entry dose 364.0 mb 0.9836 | finer frontier dose 362.0 by ('onoff', (np.float64(0.78), np.float64(1.14))) | score 0.9945
+064 trend_onoff_0.9_1.15 fit 2 entry dose 280.0 mb 1.0174 | finer frontier dose 293.8 by ('int', (np.float64(1.017), 30.0)) | score 1.0493
