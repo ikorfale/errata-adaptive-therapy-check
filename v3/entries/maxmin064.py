@@ -12,10 +12,14 @@ prof = {r["pid"]: r for r in json.load(open(os.path.join(DATA, "errata_profile_a
 none = lambda t, x, s: 0.0
 fits = [np.array(q["p"]) for q in prof[pid]["pts"] if q["ok"]]
 fits = [p for p in fits if simulate(p, none)[0] < H]                    # live fits only
-grid = np.round(np.arange(0.30, 1.19, 0.02), 2)
+TOP_E = float(os.environ.get("TOP_ENTRY", "1.18")); TOP_F = float(os.environ.get("TOP_FRONTIER", "1.18"))
+grid = np.round(np.arange(0.30, TOP_E + 0.01, 0.02), 2)               # entry (trend on-off) pairs
 pairs = [(lo, hi) for lo in grid for hi in grid if hi > lo + 0.01]
+gridf = np.round(np.arange(0.30, TOP_F + 0.01, 0.02), 2)              # frontier on-off pairs
+pairsf = [(lo, hi) for lo in gridf for hi in gridf if hi > lo + 0.01]
+print("entry hi top", TOP_E, "frontier hi top", TOP_F, flush=True)
 sp = np.round(np.arange(0.30, 1.21, 0.01), 2)
-fam = [onoff(*lh) for lh in pairs] + [integral(t, g) for g in (1.0, 2.0, 5.0, 10.0, 15.0, 30.0) for t in sp] + \
+fam = [onoff(*lh) for lh in pairsf] + [integral(t, g) for g in (1.0, 2.0, 5.0, 10.0, 15.0, 30.0) for t in sp] + \
       [proportional(t, g) for g in (3.0, 5.0, 10.0, 15.0, 30.0, 60.0) for t in sp]
 F = []                                                                  # per fit: contained family runs (mb, dose)
 for p in fits:

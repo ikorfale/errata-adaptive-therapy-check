@@ -1,5 +1,5 @@
-entry hi top 1.18 frontier hi top 1.18
-064 live fits 3 family rules 2082 contained per fit [2063, 2067, 2070]
+entry hi top 1.5 frontier hi top 1.5
+064 live fits 3 family rules 2922 contained per fit [2063, 2067, 2070]
 top 10 by min score over live fits:
   lo 0.36 hi 0.48  min 1.0019  per fit [1.0019, 1.0049, 1.0019]
   lo 0.36 hi 0.50  min 1.0019  per fit [1.0019, 1.0048, 1.0028]
@@ -11,8 +11,8 @@ top 10 by min score over live fits:
   lo 0.36 hi 0.62  min 1.0019  per fit [1.0019, 1.0048, 1.0051]
   lo 0.36 hi 0.64  min 1.0019  per fit [1.0019, 1.0048, 1.0051]
   lo 0.36 hi 0.66  min 1.0019  per fit [1.0019, 1.0048, 1.0051]
-best pair for fit 0: lo 0.78 hi 1.18  scores on all fits [1.0472, 0.9259, 0.9056]
+best pair for fit 0: lo 0.78 hi 1.20  scores on all fits [1.0575, 0.9259, 0.9056]
 best pair for fit 1: lo 0.68 hi 1.18  scores on all fits [0.9932, 1.0866, 1.0127]
 best pair for fit 2: lo 0.44 hi 1.18  scores on all fits [1.0, 0.9982, 1.1316]
-pairs that contain the tumour on all live fits: 990 of 990
+pairs that contain the tumour on all live fits: 1102 of 1830
 verdict: no robust win; max-min 1.0019

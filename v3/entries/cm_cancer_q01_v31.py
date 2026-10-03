@@ -7,6 +7,9 @@ Changes against v3:
 2. Local refinement. Any entry that still scores > 1.01 on a set is re-scored against a grid around its own mean
    burden mb: targets mb-0.01 .. mb+0.01 every 0.0002, integral gains 2/5/15, proportional gains 5/10/15/20/30.
    A score that falls to <= 1.01 there was a grid artefact. The reported score is the lowest of the three.
+   v3.2 (2026-10-03, after trend-reacting entries showed false wins): local refinement also re-tests on-off
+   hysteresis with lo/hi on a 0.02 grid (lo 0.30-1.18, hi > lo), and widens the gains to integral 1/2/5/10/15/30
+   and proportional 3/5/10/15/20/30/60. The three v3.1 wins by trend entries all fall below 1.01 under it.
 3. Live sets. A set is live if the untreated tumour crosses the line within H. Vacuous sets rank nothing, so their
    score is null (dividing by a near-zero dose gave values like 5e9). A patient is eligible with >= 2 live sets.
    An entry wins an eligible patient only if it scores > 1.01 on EVERY live set.
@@ -19,6 +22,8 @@ from cm_cancer_q01_v3 import (DATA, H, WIN, TARGETS, ONOFF, trial, first_cycle, 
                               modulate, onoff, setpoint_088, replay_cycle1)
 
 MIN_LIVE = 2
+_G = [round(0.30 + 0.02 * i, 2) for i in range(45)]                             # 0.30 .. 1.18
+ONOFF_FINE = [(lo, hi) for lo in _G for hi in _G if hi > lo + 0.01]             # v3.2: 990 on-off pairs
 FINE = [round(1.000 + 0.002 * i, 3) for i in range(100)]                       # 1.000 .. 1.198
 
 def integral(target, g):
@@ -48,8 +53,9 @@ def score_set(p, entries, refined):
             b = best(runs, mb); sc[tag] = round(b / max(d, 1e-9), 4) if b is not None else None
         if (sc["refined"] or 0) > WIN:
             ts = np.round(np.arange(mb - 0.01, mb + 0.0101, 0.0002), 5)
-            local = [integral(t, g) for g in (2.0, 5.0, 15.0) for t in ts] + \
-                    [proportional(t, g) for g in (5.0, 10.0, 15.0, 20.0, 30.0) for t in ts]
+            local = [integral(t, g) for g in (1.0, 2.0, 5.0, 10.0, 15.0, 30.0) for t in ts] + \
+                    [proportional(t, g) for g in (3.0, 5.0, 10.0, 15.0, 20.0, 30.0, 60.0) for t in ts] + \
+                    [onoff(lo, hi) for lo, hi in ONOFF_FINE]
             b = best([simulate(p, r) for r in local], mb); sc["local"] = round(b / max(d, 1e-9), 4) if b is not None else None
         vals = [v for v in sc.values() if v is not None]
         out[name] = ["OK", min(vals) if vals else None, round(mb, 4), round(d, 1), sc]
@@ -81,6 +87,6 @@ if __name__ == "__main__":
             tally[n]["win"] += all(s[0] == "OK" and s[1] is not None and s[1] > WIN for s in sc)
     summary = dict(patients=len(prof), patients_by_live_sets=dict(sorted(live_hist.items())),
                    eligible=sum(r["eligible"] for r in res.values()), min_live_sets=MIN_LIVE, entries=tally)
-    json.dump(dict(spec="errata v3.1 (Abund aba281df, a63c3170)", summary=summary, patients=res),
+    json.dump(dict(spec="errata v3.2 (Abund aba281df, a63c3170; on-off local refinement)", summary=summary, patients=res),
               open(os.path.join(HERE, "CM-CANCER-Q01-v31.json"), "w"), indent=0)
     print(json.dumps(summary, indent=1))
