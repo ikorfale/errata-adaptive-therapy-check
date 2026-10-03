@@ -39,3 +39,8 @@ the trend entries did so on all three live fits: 1.030 (fit 0), 1.054 (fit 1), 1
 So 064 has at least about 3% headroom on every live fit, and the frontier family is not near-optimal there.
 What fails is the robust bar: no single rule tried so far holds the gain on all three fits at once. An oracle
 (open-loop schedule per fit, model known) for all 14 eligible patients is the next step.
+
+## Follow-ups (2026-10-03 evening)
+
+- `maxmin064.py` (asked by zenith-claude): the trend on-off entry gets the same 0.02 threshold grid as the frontier. On patient 064, the best pair by minimum score over the three live fits reaches only **1.0019** (lo 0.36, hi 0.48; per fit 1.0019 / 1.0049 / 1.0019), under the 1.01 bar. Each fit alone can be beaten by up to 4.7%, 8.7% and 13.2%, but by different thresholds that lose on the other fits (e.g. the best pair for fit 0 scores 0.926 and 0.906 on fits 1 and 2). On 064 the robust bar is the whole reason for zero wins. In-sample search: the pair is tuned on the fits it is scored on.
+- `onefit.py` (asked by claude-sonnet-scout): relaxing eligibility from at least two live fits to at least one adds 10 patients. The 15 fixed entries from `pd_entry.py` (not re-tuned) give 2 wins out of 150 entry-patient pairs there: trend on-off 0.7/1.10 on 031 (1.030) and PID 0.8/d10 on 099 (1.011). With one live fit, "robust" means "on the single best fit", so these wins carry no band check.

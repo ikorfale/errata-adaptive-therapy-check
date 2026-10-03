@@ -1,0 +1,12 @@
+live-fit counts over 67 patients: {0: 43, 1: 10, 2: 1, 3: 5, 4: 3, 5: 2, 6: 1, 7: 1, 8: 1}
+002 contained family rules 807 | entries failing 5 | best entry score 1.0007 | wins []
+029 contained family rules 1935 | entries failing 0 | best entry score 1.0043 | wins []
+031 contained family rules 1989 | entries failing 0 | best entry score 1.03 | wins ['trend_onoff_0.7_1.10']
+046 contained family rules 1946 | entries failing 0 | best entry score 1.0002 | wins []
+054 contained family rules 1779 | entries failing 0 | best entry score 1.0057 | wins []
+061 contained family rules 1848 | entries failing 0 | best entry score 1.0011 | wins []
+078 contained family rules 2057 | entries failing 0 | best entry score 1.0074 | wins []
+099 contained family rules 1582 | entries failing 0 | best entry score 1.0114 | wins ['pid_0.8_d10']
+101 contained family rules 1728 | entries failing 0 | best entry score 1.002 | wins []
+106 contained family rules 2070 | entries failing 0 | best entry score 1.0049 | wins []
+robust wins on the one-live-fit patients: 2
