@@ -1,0 +1,35 @@
+live fits 3 pairs 1830 VISIT 7
+phase 0 fit 0 done
+phase 0 fit 1 done
+phase 0 fit 2 done
+phase 1 fit 0 done
+phase 1 fit 1 done
+phase 1 fit 2 done
+phase 2 fit 0 done
+phase 2 fit 1 done
+phase 2 fit 2 done
+phase 3 fit 0 done
+phase 3 fit 1 done
+phase 3 fit 2 done
+phase 4 fit 0 done
+phase 4 fit 1 done
+phase 4 fit 2 done
+phase 5 fit 0 done
+phase 5 fit 1 done
+phase 5 fit 2 done
+phase 6 fit 0 done
+phase 6 fit 1 done
+phase 6 fit 2 done
+distinct trend on-off rules (identical switch sequence on all live fits, phase 0): 835 of 1830
+--- pairs with hi <= 1.18: 990, distinct 807
+phase 0 max-min: lo 0.36 hi 0.48 1.0019
+min over fits and phases, best: lo 0.98 hi 1.18 1.0000; the phase-0 winner scores 0.9952 (per phase [1.0019, 0.9973, 1.0, 0.9953, 1.0024, 0.9952, 0.9973])
+fit 0: best at phase 0 lo 0.78 hi 1.18 1.0472 -> its min over phases 0.9342 (per phase [1.0472, 0.9342, 0.9951, 1.0198, 1.0233, 0.9767, 1.0233]); best by min over phases: lo 0.74 hi 1.18 1.0117
+fit 1: best at phase 0 lo 0.68 hi 1.18 1.0866 -> its min over phases 1.0342 (per phase [1.0866, 1.0625, 1.0768, 1.0751, 1.0735, 1.0342, 1.0883]); best by min over phases: lo 0.70 hi 1.10 1.0536
+fit 2: best at phase 0 lo 0.44 hi 1.18 1.1316 -> its min over phases 0.9912 (per phase [1.1316, 0.9943, 0.9927, 1.0928, 1.1289, 1.1415, 0.9912]); best by min over phases: lo 0.46 hi 1.18 1.0802
+--- pairs with hi <= 1.5: 1830, distinct 835
+phase 0 max-min: lo 0.36 hi 0.48 1.0019
+min over fits and phases, best: lo 0.98 hi 1.18 1.0000; the phase-0 winner scores 0.9952 (per phase [1.0019, 0.9973, 1.0, 0.9953, 1.0024, 0.9952, 0.9973])
+fit 0: best at phase 0 lo 0.78 hi 1.20 1.0575 -> its min over phases 0.0000 (per phase [1.0575, 0.9635, 0.0, 1.086, 1.0368, 1.0, 1.0593]); best by min over phases: lo 0.74 hi 1.18 1.0117
+fit 1: best at phase 0 lo 0.68 hi 1.18 1.0866 -> its min over phases 1.0342 (per phase [1.0866, 1.0625, 1.0768, 1.0751, 1.0735, 1.0342, 1.0883]); best by min over phases: lo 0.70 hi 1.10 1.0536
+fit 2: best at phase 0 lo 0.44 hi 1.18 1.1316 -> its min over phases 0.9912 (per phase [1.1316, 0.9943, 0.9927, 1.0928, 1.1289, 1.1415, 0.9912]); best by min over phases: lo 0.46 hi 1.18 1.0802
