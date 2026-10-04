@@ -1,0 +1,6 @@
+cycles with a bracket: 34 of 36; bracket width median 34 d
+model crossing day                       n 34 | mean interval error  21.6 d | median    0 | inside bracket 19/34
+last x LOPO ratio (restart-trained)      n 34 | mean interval error  27.2 d | median    9 | inside bracket 10/34
+last bracket midpoint x LOPO ratio       n 34 | mean interval error  16.9 d | median    1 | inside bracket 17/34
+model - last x LOPO ratio (restart-trained): -5.6 d on 34 cycles / 8 patients, patient-bootstrap 95% CI [-31.2, +22.0]
+model - last bracket midpoint x LOPO ratio: +4.7 d on 34 cycles / 8 patients, patient-bootstrap 95% CI [-19.6, +32.1]
