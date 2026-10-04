@@ -1,0 +1,45 @@
+042 fit 0 q25 B 0.6147 frontier 1138.7 oracle 978.1 ratio 1.1642 iters 100 term 0
+042 fit 0 q50 B 0.7007 frontier 707.0 oracle 707.0 ratio 1.0 iters 100 term 0
+042 fit 0 q75 B 0.8719 frontier 623.0 oracle 623.0 ratio 1.0 iters 100 term 0
+042 fit 1 q25 B 0.5539 frontier 822.6 oracle 697.8 ratio 1.1788 iters 100 term 0
+042 fit 1 q50 B 0.7092 frontier 700.0 oracle 655.3 ratio 1.0683 iters 100 term 0
+042 fit 1 q75 B 0.8841 frontier 626.0 oracle 626.0 ratio 1.0 iters 100 term 0
+042 fit 2 q25 B 0.5620 frontier 777.0 oracle 684.2 ratio 1.1356 iters 100 term 0
+042 fit 2 q50 B 0.7192 frontier 707.0 oracle 707.0 ratio 1.0 iters 100 term 0
+042 fit 2 q75 B 0.8870 frontier 642.0 oracle 642.0 ratio 1.0 iters 100 term 0
+051 fit 0 q25 B 0.7709 frontier 1725.5 oracle None start_mb 0.770921 start_top 1.000000 line 1.2 term 0
+051 fit 0 q50 B 0.7709 frontier 1725.5 oracle None start_mb 0.770921 start_top 1.000000 line 1.2 term 0
+051 fit 0 q75 B 0.8255 frontier 1640.8 oracle 1640.8 ratio 1.0 iters 22 term 0
+051 fit 1 q25 B 0.7849 frontier 1731.2 oracle None start_mb 0.784923 start_top 1.000000 line 1.2 term 0
+051 fit 1 q50 B 0.7849 frontier 1731.2 oracle None start_mb 0.784923 start_top 1.000000 line 1.2 term 0
+051 fit 1 q75 B 0.8193 frontier 1642.7 oracle 1642.7 ratio 1.0 iters 30 term 0
+051 fit 2 q25 B 0.7932 frontier 1740.1 oracle None start_mb 0.793208 start_top 1.000000 line 1.2 term 0
+051 fit 2 q50 B 0.7932 frontier 1740.1 oracle None start_mb 0.793208 start_top 1.000000 line 1.2 term 0
+051 fit 2 q75 B 0.8069 frontier 1652.3 oracle 1652.3 ratio 1.0 iters 16 term 0
+051 fit 3 q25 B 0.7596 frontier 1762.2 oracle None start_mb 0.759639 start_top 1.000000 line 1.2 term 0
+051 fit 3 q50 B 0.7596 frontier 1751.8 oracle None start_mb 0.759639 start_top 1.000000 line 1.2 term 0
+051 fit 3 q75 B 0.8142 frontier 1654.1 oracle 1654.1 ratio 1.0 iters 14 term 0
+051 fit 4 q25 B 0.7153 frontier 1783.4 oracle None start_mb 0.715327 start_top 1.000000 line 1.2 term 0
+051 fit 4 q50 B 0.7153 frontier 1742.6 oracle 1742.6 ratio 1.0 iters 38 term 0
+051 fit 4 q75 B 0.8263 frontier 1660.4 oracle 1660.4 ratio 1.0 iters 29 term 0
+055 fit 0 q25 B 0.5802 frontier 1531.8 oracle 1531.8 ratio 1.0 iters 19 term 0
+055 fit 0 q50 B 0.7330 frontier 1399.6 oracle 1399.6 ratio 1.0 iters 100 term 0
+055 fit 0 q75 B 0.8635 frontier 1307.0 oracle 1307.0 ratio 1.0 iters 51 term 0
+055 fit 1 q25 B 0.5743 frontier 1330.0 oracle 1330.0 ratio 1.0 iters 77 term 0
+055 fit 1 q50 B 0.7219 frontier 1265.0 oracle 1265.0 ratio 1.0 iters 57 term 0
+055 fit 1 q75 B 0.8752 frontier 1167.0 oracle 1167.0 ratio 1.0 iters 82 term 0
+055 fit 2 q25 B 0.5944 frontier 1400.6 oracle 1400.6 ratio 1.0 iters 13 term 0
+055 fit 2 q50 B 0.7385 frontier 1379.3 oracle 1379.3 ratio 1.0 iters 15 term 0
+055 fit 2 q75 B 0.8668 frontier 1350.3 oracle 1350.3 ratio 1.0 iters 19 term 0
+056 fit 0 q25 B 0.6306 frontier 978.8 oracle 501.5 ratio 1.9516 iters 100 term 0
+056 fit 0 q50 B 0.6885 frontier 441.0 oracle 349.9 ratio 1.2605 iters 100 term 0
+056 fit 0 q75 B 0.8462 frontier 364.0 oracle 364.0 ratio 1.0 iters 53 term 0
+056 fit 1 q25 B 0.6170 frontier 890.0 oracle 484.8 ratio 1.8357 iters 100 term 0
+056 fit 1 q50 B 0.6973 frontier 397.0 oracle 376.5 ratio 1.0545 iters 100 term 0
+056 fit 1 q75 B 0.8666 frontier 308.0 oracle 308.0 ratio 1.0 iters 100 term 0
+056 fit 2 q25 B 0.5994 frontier 814.5 oracle 460.8 ratio 1.7674 iters 100 term 0
+056 fit 2 q50 B 0.6999 frontier 385.0 oracle 377.8 ratio 1.019 iters 100 term 0
+056 fit 2 q75 B 0.8584 frontier 308.0 oracle 308.0 ratio 1.0 iters 100 term 0
+056 fit 3 q25 B 0.5782 frontier 754.1 oracle 474.2 ratio 1.5902 iters 100 term 0
+056 fit 3 q50 B 0.6982 frontier 378.0 oracle 378.0 ratio 1.0 iters 100 term 0
+056 fit 3 q75 B 0.8490 frontier 308.0 oracle 308.0 ratio 1.0 iters 100 term 0

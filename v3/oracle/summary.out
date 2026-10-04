@@ -1,0 +1,32 @@
+=== end-state constraint ON
+020: n 21 max 1.1396 median 1.0000 >1.01: 4 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+036: n 15 max 1.0490 median 1.0000 >1.01: 1 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+042: n 9 max 1.1642 median 1.0000 >1.01: 1 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+051: n 6 max 1.0001 median 1.0000 >1.01: 0 | start on the line (not evaluated) 9 | fits with no feasible family rule 0
+055: n 9 max 1.0009 median 1.0000 >1.01: 0 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+056: n 12 max 1.3931 median 1.0125 >1.01: 6 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+063: n 21 max 1.0000 median 1.0000 >1.01: 0 | start on the line (not evaluated) 0 | fits with no feasible family rule 1
+064: n 9 max 1.1398 median 1.0173 >1.01: 5 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+077: n 18 max 1.0018 median 1.0000 >1.01: 0 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+088: n 6 max 1.2058 median 1.0063 >1.01: 2 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+091: n 12 max 1.0331 median 1.0002 >1.01: 1 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+093: n 8 max 1.0470 median 1.0045 >1.01: 2 | start on the line (not evaluated) 1 | fits with no feasible family rule 0
+102: n 8 max 1.0000 median 1.0000 >1.01: 0 | start on the line (not evaluated) 1 | fits with no feasible family rule 0
+109: n 12 max 1.2148 median 1.0022 >1.01: 3 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+ALL: patients 14, (fit, q) cells 166, ratio > 1.01 in 25, > 1.10 in 9, max 1.3931, median 1.0000
+=== end-state constraint OFF
+020: n 21 max 1.6604 median 1.0000 >1.01: 2 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+036: n 15 max 1.3663 median 1.0000 >1.01: 1 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+042: n 9 max 1.1788 median 1.0000 >1.01: 4 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+051: n 6 max 1.0000 median 1.0000 >1.01: 0 | start on the line (not evaluated) 9 | fits with no feasible family rule 0
+055: n 9 max 1.0000 median 1.0000 >1.01: 0 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+056: n 12 max 1.9516 median 1.0368 >1.01: 7 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+063: n 21 max 1.3639 median 1.0000 >1.01: 2 | start on the line (not evaluated) 0 | fits with no feasible family rule 1
+064: n 9 max 1.6567 median 1.3427 >1.01: 6 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+077: n 18 max 1.0000 median 1.0000 >1.01: 0 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+088: n 6 max 1.2438 median 1.0000 >1.01: 2 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+091: n 12 max 1.2156 median 1.0000 >1.01: 4 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+093: n 9 max 1.2318 median 1.0159 >1.01: 6 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+102: n 8 max 1.0213 median 1.0000 >1.01: 1 | start on the line (not evaluated) 1 | fits with no feasible family rule 0
+109: n 12 max 1.3861 median 1.0000 >1.01: 5 | start on the line (not evaluated) 0 | fits with no feasible family rule 0
+ALL: patients 14, (fit, q) cells 167, ratio > 1.01 in 40, > 1.10 in 27, max 1.9516, median 1.0000
