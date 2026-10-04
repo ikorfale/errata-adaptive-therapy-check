@@ -1,0 +1,16 @@
+model, crossing day              MAE   51.1 | per-patient mean MAE   51.2 | median |err|    39 | signed median   -20
+model, next actual visit         MAE   40.1 | per-patient mean MAE   46.3 | median |err|    28 | signed median    +0
+model, 28-day grid               MAE   44.9 | per-patient mean MAE   47.1 | median |err|    28 | signed median   -10
+same as last                     MAE   54.0 | per-patient mean MAE   67.1 | median |err|    36 | signed median   +23
+last x LOPO ratio                MAE   39.2 | per-patient mean MAE   39.8 | median |err|    20 | signed median    -5
+last x LOPO ratio, 28-day grid   MAE   40.8 | per-patient mean MAE   45.4 | median |err|    28 | signed median    +8
+last x LOPO ratio, next actual visit MAE   40.7 | per-patient mean MAE   48.2 | median |err|    30 | signed median    +0
+MAE(model, crossing day) - MAE(last x LOPO ratio) = +11.9 d, patient-bootstrap 95% CI [-15.0, +32.1]
+MAE(model, next actual visit) - MAE(last x LOPO ratio, next actual visit) = -0.5 d, patient-bootstrap 95% CI [-27.4, +25.4]
+MAE(model, 28-day grid) - MAE(last x LOPO ratio, 28-day grid) = +4.2 d, patient-bootstrap 95% CI [-19.1, +26.9]
+cycles per patient: {'P1001': 5, 'P1002': 2, 'P1003': 2, 'P1006': 7, 'P1011': 6, 'P1012': 10, 'P1014': 1, 'P1015': 1, 'P1016': 2}
+restart PSA >= day-0 PSA: 34/36 | previous visit below day-0 PSA: 22/36 | both (crossing between the two visits): 20/36
+restart PSA / day-0 PSA: median 1.89, range 0.22-7.16
+model PSA at the real restart visit / observed restart PSA: median 0.66, within x2 in 21/36
+restart at the first visit after the stop (no off-visit in between): 9 /36
+model crossing beyond the patient's last visit (left unrounded): 0
